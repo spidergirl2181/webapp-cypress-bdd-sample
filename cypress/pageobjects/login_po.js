@@ -25,16 +25,16 @@ export const loginMarmelab = {
 
 	signIn () {
 		cy.fixture('testdata').then((data) => {
-    		this.enterUsername(data.username)
-    		this.enterPassword(data.password)
-    		this.submitForm()
-    		cy.wait(1000)
+    			this.enterUsername(data.username)
+    			this.enterPassword(data.password)
+    			this.submitForm()
+    			cy.wait(1000)
     	}
   	}
 
   	verifyLoginSuccess () {
 		cy.fixture('testdata').then((data) => {
-      		cy.contains(data.account).should('exist')
+      			cy.contains(data.account).should('exist')
     	}
     }
 }
