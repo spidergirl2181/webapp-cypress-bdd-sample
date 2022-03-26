@@ -29,12 +29,12 @@ export const loginMarmelab = {
     			this.enterPassword(data.password)
     			this.submitForm()
     			cy.wait(1000)
-    	}
+    		}
   	}
 
   	verifyLoginSuccess () {
 		cy.fixture('testdata').then((data) => {
       			cy.contains(data.account).should('exist')
+    		}
     	}
-    }
 }
