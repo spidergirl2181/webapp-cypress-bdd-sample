@@ -1,5 +1,7 @@
 {
   "username": "test@qaa.com",
   "password": "111111",
-  "account": "Jane Doe"
+  "account": "Jane Doe",
+  "searchkeyword": "Baseball Night{enter}",
+  "searchresult": "[src=https://marmelab.com/posters/sports-5.jpeg]"
 }
