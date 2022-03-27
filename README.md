@@ -1,6 +1,8 @@
 # webapp-cypress-bdd-sample
 
-This is a simple example of how to implement UI test automation for web-base applications using Cypress, Gerkin-Cucumber & POM design pattern.
+This is a simple example of how to implement UI test automation for web-base applications using Cypress, Gherkin-Cucumber & Page-Object design pattern.
+
+CI/CD sample solution will be added later.
 
 References:
 
