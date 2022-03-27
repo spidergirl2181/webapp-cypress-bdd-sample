@@ -17,12 +17,12 @@ export const searchPoster = {
 		cy.fixture('testdata').then((data) => {
       			this.searchBoxAction(data.searchkeyword)
       			cy.wait(2000)
-		}
+		})
     	}		
 
   	verifyPosterDisplayed () {
   		cy.fixture('testdata').then((data) => {
   			cy.get(data.searchresult).should('exist')
-    		}	
+    		})
     	}
 }
