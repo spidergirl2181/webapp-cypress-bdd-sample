@@ -1,6 +1,5 @@
 const posterBtn = 'Posters'
 const searchPosterBox = '[id=q]'
-const 
 
 export const searchPoster = {
 	launchPosterPage () {
